@@ -7,12 +7,12 @@ public class Conta {
 	/**
 	 * 
 	 * @author thaap
-	 * @param valor - Parametro do tipo inteiro dado com o nome de valor.
+	 * @param int1 - Parametro do tipo inteiro dado com o nome de int1.
 	 * 
 	 */
 	
 	@Given("um cliente especial com saldo atual de {int} reais")
-	public void um_cliente_especial_com_saldo_atual_de_reais(Integer valor) {
+	public void um_cliente_especial_com_saldo_atual_de_reais(Integer int1) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -20,12 +20,12 @@ public class Conta {
 	/**
 	 * 
 	 * @author thaap
-	 * @param valor - Parametro do tipo inteiro dado com o nome de valor.
+	 * @param int1 - Parametro do tipo inteiro dado com o nome de int1.
 	 * 
 	 */
 
 	@When("for solicitado um saque no valor de {int} reais")
-	public void for_solicitado_um_saque_no_valor_de_reais(Integer valor) {
+	public void for_solicitado_um_saque_no_valor_de_reais(Integer int1) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -33,12 +33,12 @@ public class Conta {
 	/**
 	 * 
 	 * @author thaap
-	 * @param valor - Parametro do tipo inteiro dado com o nome de valor.
+	 * @param int1 - Parametro do tipo inteiro dado com o nome de int1.
 	 * 
 	 */
 
 	@Then("deve efetuar o saque e atualizar o saldo da conta para {int} reais")
-	public void deve_efetuar_o_saque_e_atualizar_o_saldo_da_conta_para_reais(Integer valor) {
+	public void deve_efetuar_o_saque_e_atualizar_o_saldo_da_conta_para_reais(Integer int1) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -46,12 +46,25 @@ public class Conta {
 	/**
 	 * 
 	 * @author thaap
-	 * @param valor - Parametro do tipo inteiro dado com o nome de valor.
+	 * @param int1 - Parametro do tipo inteiro dado com o nome de int1.
+	 * 
+	 */
+
+	@Given("um cliente comum com saldo atual de {int} reais")
+	public void um_cliente_comum_com_saldo_atual_de_reais(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	
+	/**
+	 * 
+	 * @author thaap
+	 * @param int1 - Parametro do tipo inteiro dado com o nome de int1.
 	 * 
 	 */
 
 	@When("solicitar um saque de {int} reais")
-	public void solicitar_um_saque_de_reais(Integer valor) {
+	public void solicitar_um_saque_de_reais(Integer int1) {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -59,7 +72,7 @@ public class Conta {
 	/**
 	 * 
 	 * @author thaap
-	 * @param - Não passa nenhum tipo de parametro no metodo.
+	 * @param int1 - Parametro do tipo inteiro dado com o nome de int1.
 	 * 
 	 */
 
@@ -68,4 +81,5 @@ public class Conta {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
+	
 }
